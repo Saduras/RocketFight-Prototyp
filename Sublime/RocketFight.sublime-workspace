@@ -1,0 +1,558 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"color",
+				"colorpicker"
+			],
+			[
+				"colo",
+				"colorTheme"
+			],
+			[
+				"tmp",
+				"tmpColor"
+			],
+			[
+				"keywo",
+				"keywordIDs"
+			],
+			[
+				"key",
+				"keywordIDs"
+			],
+			[
+				"getID",
+				"getIDsOfKeywords"
+			],
+			[
+				"author",
+				"authorIDs"
+			],
+			[
+				"getAuth",
+				"getIDsOfAuthors"
+			],
+			[
+				"crea",
+				"creatAplhaArray"
+			],
+			[
+				"char",
+				"char2"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"requ",
+				"require_once"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/NetworkTest/NetworkManager.cs",
+			"settings":
+			{
+				"buffer_size": 1523,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Unity3D Build System/Unity.sublime-build",
+	"command_palette":
+	{
+		"height": 310.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"istall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"tortois",
+				"Preferences: Tortoise Key Bindings – Default"
+			],
+			[
+				"indet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Saduras/Downloads/UnityExternalScriptEditorHelper-1.0/UnityExternalScriptEditorHelper/wrapper.ini",
+		"/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/NetworkTest/NetworkManager.cs",
+		"/C/Users/Saduras/AppData/Local/Temp/Temp1_M2H_Networking_Tutorial.zip/M2H_Networking_Tutorial/M2H_Networking_Tutorial/Assets/Tutorial 1/Connect.js",
+		"/C/Users/Saduras/AppData/Local/Temp/dbf5fe5f-377b-4d3b-a43e-efe5905a0ae8/home/saduras/web/drupal/html/teamrocket.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/education/program.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/workshop-programms/gui.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/workshop-programms/dataservice.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/gliameetingform.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/stipends/application/gui.php",
+		"/C/Users/Saduras/Arbeit/lib/config.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/user-administration/admin.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/user-administration/user.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/stipends/forms.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/stipends/application.php",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Saduras/Arbeit/lib/ds/stipends/README.txt",
+		"/C/Users/Saduras/Arbeit/lib/ds/public/table.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/public/form.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/public/dataservice.php",
+		"/C/Users/Saduras/Arbeit/aliases/admin/supplier.php",
+		"/C/Users/Saduras/Arbeit/lib/mik/mysql.php",
+		"/C/Users/Saduras/Arbeit/lib/gf/supplier.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/about/council/2013-2015/election-result.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/en/about/council/2011-2013/index.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/boxes/en/about/council/periods.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/en/about/council/2013-2015/index.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/about/council/2013-2015/index.php",
+		"/C/Users/Saduras/Arbeit/glia.mdc-berlin.de/html/lib/boxes/en/about/council/periods.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/boxes/de/neuroforum/editorial.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/boxes/de/about/council/results.php",
+		"/C/Users/Saduras/Arbeit/glia.mdc-berlin.de/html/lib/boxes/de/neuroforum/editorial.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/about/council/2013-2015/elevtion-result.php",
+		"/C/Users/Saduras/Arbeit/glia.mdc-berlin.de/html/lib/boxes/de/about/council/results.php",
+		"/C/Users/Saduras/Arbeit/glia.mdc-berlin.de/html/de/about/council/2011-2013/election-result.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/boxes/de/about/council/periods.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/firms/firms.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/gui/gui.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/sql.php",
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/page.tpl.php",
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/template.php",
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style.css",
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style_sidebar_left.css",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/about/council/2011-2013/kettenmann.html",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/courses/education/documents/index.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/dms/editEntry.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/dms/deleteEntry.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/dms/createEntry.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/picdb_admin_config.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/keyword.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/index.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/author.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/alpha.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/filesystem.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/db.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb/alphalist.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/picturedb/index.php",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Saduras/Arbeit/nwg-work.sublime-project",
+		"/C/Users/Saduras/Arbeit/nwg2/html/css/lectures.css",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/js/picturedb.js",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/picturedb/head.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/news-ng.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/picturedb/interface_config.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/lib/templates/maintemplate.php",
+		"/C/Users/Saduras/Arbeit/nwg2/html/de/picturedb/index.php",
+		"/C/Users/Saduras/Arbeit/lib/nwg2/picturedb/index.org.php",
+		"/C/Users/Saduras/Arbeit/lib/ds/picturedb/pageNavi.php",
+		"/C/Users/Saduras/Arbeit/aliases/admin/picturedb/style.css",
+		"/C/Users/Saduras/Arbeit/aliases/admin/picturedb/download.php",
+		"/C/Users/Saduras/Arbeit/aliases/admin/picturedb/dms/createEntry.php",
+		"/C/Users/Saduras/Arbeit/aliases/admin/picturedb/author.php",
+		"/C/Users/Saduras/Arbeit/aliases/admin/picturedb/index.php",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Twilight.tmTheme",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Saduras/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Saduras\\Arbeit\\lib\\",
+			"C:\\Users\\Saduras\\Arbeit\\lib\\ds\\picturedb-input",
+			"C:\\Users\\Saduras\\Arbeit\\lib",
+			"C:\\Users\\Saduras\\Arbeit\\lib\\ds",
+			"C:\\Users\\Saduras\\Arbeit\\lib\\ds\\picturedb-input"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"td",
+			"table",
+			"dbtable",
+			"gliameeting",
+			"succesfull",
+			"ctrl+alt+",
+			"USER_SCRIPT_PATH",
+			"stipends",
+			"table_class",
+			"form_class",
+			"formclass",
+			"form",
+			"background",
+			"discription",
+			"Discription",
+			"$albumDiscription",
+			"$_POST[\"dsscription\"]",
+			"$_POST[\"discription\"]",
+			"discription",
+			"db.php",
+			"  \n",
+			"background",
+			"back"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"successful",
+			"description",
+			"Description",
+			"$albumDescription",
+			"$_POST[\"description\"]",
+			"$_POST[\"dsscription\"]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/NetworkTest/NetworkManager.cs",
+					"settings":
+					{
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"box/en/abou",
+				"nwg2/html/lib/boxes/en/about/council/periods.php"
+			],
+			[
+				"box/en/aboun",
+				"glia.mdc-berlin.de/html/lib/boxes/en/about/council/periods.php"
+			],
+			[
+				"box/de/about/coun",
+				"nwg2/html/lib/boxes/de/about/council/results.php"
+			],
+			[
+				"editorial",
+				"glia.mdc-berlin.de/html/lib/boxes/de/neuroforum/editorial.php"
+			],
+			[
+				"box/neurofo",
+				"glia.mdc-berlin.de/html/lib/boxes/de/neuroforum/editorial.php"
+			],
+			[
+				"2015/",
+				"nwg2/html/de/about/council/2013-2015/elevtion-result.php"
+			],
+			[
+				"box/about/",
+				"glia.mdc-berlin.de/html/lib/boxes/de/about/council/results.php"
+			],
+			[
+				"electi",
+				"glia.mdc-berlin.de/html/de/about/council/2011-2013/election-result.php"
+			],
+			[
+				"elec",
+				"glia.mdc-berlin.de/html/de/about/council/2011-2013/election-result.php"
+			],
+			[
+				"box/de/about/cou",
+				"nwg2/html/lib/boxes/de/about/council/periods.php"
+			],
+			[
+				"boxes/de/neuro/",
+				"glia.mdc-berlin.de/html/lib/boxes/de/neuroforum/editorial.php"
+			],
+			[
+				"author.php",
+				"lib/ds/picturedb-input/author.php"
+			],
+			[
+				"key",
+				"lib/ds/picturedb-input/keyword.php"
+			],
+			[
+				"sql",
+				"lib/ds/picturedb-input/sql.php"
+			],
+			[
+				"pictureinputdb",
+				"lib/ds/picturedb-input/db.php"
+			],
+			[
+				"picdbalp",
+				"lib/ds/picturedb-input/alpha.php"
+			],
+			[
+				"picturedb-inputgui",
+				"lib/ds/picturedb-input/gui/gui.php"
+			],
+			[
+				"picturedb-u",
+				"lib/ds/picturedb-input/author.php"
+			],
+			[
+				"lib/ds/picturedb/",
+				"lib/ds/picturedb/alphalist.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Saduras/Dropbox/VisuPras/VisuPras.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}
