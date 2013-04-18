@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\NetworkTest\Movement.cs" />
      <Compile Include="Assets\NetworkTest\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\KeyboardMouseController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
