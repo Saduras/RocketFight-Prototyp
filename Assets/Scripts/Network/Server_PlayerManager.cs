@@ -3,14 +3,14 @@ using System.Collections;
 
 public class Server_PlayerManager : MonoBehaviour {
 
-	public float speed = 10;
+	public float speed = 10.0f;
+	public float rocketLauncherCD = 1.0f;
+	public GameObject rocketPrefab;
 	
 	private Vector3 movement = Vector3.zero;
 	private Quaternion rotation = Quaternion.identity;
-	
-	// Use this for initialization
-	public void Start() {
-	}
+	private bool shoot = false;
+	private float lastShot = 0.0f;
 	
 	// Update is called once per frame
 	public void Update() {
@@ -21,6 +21,14 @@ public class Server_PlayerManager : MonoBehaviour {
 		
 		this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
 		this.transform.rotation = rotation;
+		
+		if (shoot && (Time.time > lastShot + rocketLauncherCD) ) {
+			lastShot = Time.time;
+			Transform handle = this.transform.Find("Barrel");
+			Vector3 startPos = handle.position;
+			Quaternion startRot = this.transform.rotation;
+			Network.Instantiate(rocketPrefab,startPos,startRot,(int)NetworkGroup.SERVER);
+		}
 	}
 	
 	[RPC]
@@ -39,6 +47,11 @@ public class Server_PlayerManager : MonoBehaviour {
 			angle = 360.0f - angle;
 		
 		rotation = Quaternion.Euler(new Vector3(0,angle,0));
+	}
+	
+	[RPC]
+	public void ShootMissile(bool fire) {
+		shoot = fire;
 	}
 	
 }

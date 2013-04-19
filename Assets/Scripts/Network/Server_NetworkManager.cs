@@ -68,13 +68,20 @@ public class Server_NetworkManager : MonoBehaviour {
 		}  
 	}
 
-	// Use this for initialization
-	void Start () {
-	
+	public List<Client_PlayerManager> GetPlayerList() {
+		return playerTracker;	
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	public void OnGUI() {
+		GUILayout.BeginArea(new Rect(Screen.width * 0.2f, 
+									Screen.height * 0.1f, 
+									Screen.width * 0.2f, 
+									Screen.height * 0.2f));
+		
+		foreach( Client_PlayerManager player in playerTracker ) {
+			GUILayout.TextArea("Player " + player.gameObject.networkView.viewID);	
+		}
+		
+		GUILayout.EndArea();
 	}
 }

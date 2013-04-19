@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Network\NetworkState.cs" />
      <Compile Include="Assets\Scripts\Network\Server_NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Network\Server_PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Server_Rocket.cs" />
      <Compile Include="Assets\Scripts\Network\Shared_Predictor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

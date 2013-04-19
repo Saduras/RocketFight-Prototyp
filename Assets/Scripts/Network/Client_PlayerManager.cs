@@ -32,6 +32,7 @@ public class Client_PlayerManager : MonoBehaviour {
 		
 		// Check for input updates
 		if((controllingPlayer!=null) && (Network.player == controllingPlayer)) {
+			// Get movement input.
 			Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
 			if(moveDirection !=  lastMoveDirection) {
 				networkView.RPC("UpdateMovement",RPCMode.Server,moveDirection);
@@ -41,6 +42,7 @@ public class Client_PlayerManager : MonoBehaviour {
 				this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
 			}
 			
+			// Get rotation input.
 			Vector3 mousePos = Input.mousePosition;
 			Vector3 charPos = Camera.mainCamera.WorldToScreenPoint(this.transform.position);
 			Vector3 viewDirection = mousePos - charPos;
@@ -59,6 +61,12 @@ public class Client_PlayerManager : MonoBehaviour {
 				Quaternion rotation = Quaternion.Euler(new Vector3(0,angle,0));
 				this.transform.rotation = rotation;
 			}
+			
+			// Get fire input.
+			if (Input.GetButtonDown("Fire"))
+				networkView.RPC("ShootMissile",RPCMode.Server, true);
+			if (Input.GetButtonUp("Fire"))
+				networkView.RPC("ShootMissile",RPCMode.Server, false);
 		}
 	}
 	
