@@ -16,12 +16,16 @@ public class KeyboardMouseController : MonoBehaviour {
 		// vector pointing from object on screen to mouse position on screen
 		Vector2 vec = mousePos - objectPos;
 		// calculate the smaller angle between vec and the Y-axis in 2D
-		float angle = Vector2.Angle(new Vector2(0,1),vec);
+		float angle = Vector2.Angle(Vector2.up,vec);
 		// if vex.x is negativ we invert the angle since we want the bigger one in this case
 		if(vec.x < 0)
 			angle = 360.0f - angle;
 		
 		// rotate to calculated angle
 		this.transform.rotation = Quaternion.Euler(new Vector3(0,angle,0));
+		
+		float inputX = Input.GetAxis("Horizontal");
+		float inputY = Input.GetAxis("Vertical");
+		this.transform.Translate(new Vector3(inputX,0,inputY), Space.World);
 	}
 }
