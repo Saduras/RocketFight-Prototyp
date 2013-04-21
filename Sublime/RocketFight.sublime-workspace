@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
 				"RPCMo",
 				"RPCMode.Server	[var]"
 			],
@@ -151,7 +159,7 @@
 			"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Server_NetworkManager.cs",
 			"settings":
 			{
-				"buffer_size": 2306,
+				"buffer_size": 2619,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,15 +191,23 @@
 			"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Client_PlayerManager.cs",
 			"settings":
 			{
-				"buffer_size": 1616,
+				"buffer_size": 3189,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style.css",
+			"settings":
+			{
+				"buffer_size": 5332,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Server_PlayerManager.cs",
 			"settings":
 			{
-				"buffer_size": 1107,
+				"buffer_size": 1588,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,6 +296,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style_main_menu.css",
+		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style.css",
 		"/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/NetworkManager.js",
 		"/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/NetworkGroup.cs",
 		"/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/KeyboardMouseController.cs",
@@ -337,7 +355,6 @@
 		"/C/Users/Saduras/Arbeit/lib/ds/picturedb-input/sql.php",
 		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/page.tpl.php",
 		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/template.php",
-		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style.css",
 		"/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style_sidebar_left.css",
 		"/C/Users/Saduras/Arbeit/nwg2/html/de/about/council/2011-2013/kettenmann.html",
 		"/C/Users/Saduras/Arbeit/nwg2/html/de/courses/education/documents/index.php",
@@ -441,7 +458,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -449,15 +466,15 @@
 					"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Server_NetworkManager.cs",
 					"settings":
 					{
-						"buffer_size": 2306,
+						"buffer_size": 2619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1099,
-								1099
+								0,
+								0
 							]
 						],
 						"settings":
@@ -780,7 +797,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -894,7 +912,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -907,15 +926,15 @@
 					"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Client_PlayerManager.cs",
 					"settings":
 					{
-						"buffer_size": 1616,
+						"buffer_size": 3189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1180,
-								1180
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1019,18 +1038,134 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Server_PlayerManager.cs",
+					"file": "/C/Users/Saduras/AppData/Local/Temp/0ba667ad-3982-4140-a392-fa0666246e30/webseiten/drupal7/sites/all/themes/Zoar_Theme/style.css",
 					"settings":
 					{
-						"buffer_size": 1107,
+						"buffer_size": 5332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								688,
-								702
+								1711,
+								1711
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Saduras/Game Dev/Unity/RocketFight Prototyp/Assets/Scripts/Network/Server_PlayerManager.cs",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":

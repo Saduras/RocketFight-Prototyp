@@ -24,7 +24,7 @@ public class Shared_Predictor : MonoBehaviour {
 			stream.Serialize(ref rot);
 			receiver.serverPos = pos;
 			receiver.serverRot = rot;
-			// Smoothly correct clients position
+			// Smoothly correct clients position.
 			receiver.lerpToTarget();
 			
 			// Take care of data for interpolation remote objects movements
