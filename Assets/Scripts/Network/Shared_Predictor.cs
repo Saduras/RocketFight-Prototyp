@@ -38,7 +38,7 @@ public class Shared_Predictor : MonoBehaviour {
 	}
 	
 	public void Update() {
-		if ((Network.player == receiver.GetPlayer()) || Network.isServer) {
+		if (/*(Network.player == receiver.GetPlayer()) ||*/ Network.isServer) {
 			return; // This is only for remote peers, get off	
 		}
 		// Client side has !!only the server connected!!
