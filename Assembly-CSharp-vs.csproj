@@ -46,14 +46,14 @@
   <ItemGroup>
      <Compile Include="Assets\NetworkTest\Movement.cs" />
      <Compile Include="Assets\NetworkTest\NetworkManager.cs" />
-     <Compile Include="Assets\Scripts\Network\Client_NetworkManager.cs" />
-     <Compile Include="Assets\Scripts\Network\Client_PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Client\Client_NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Client\Client_PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Network\GUI_Network.cs" />
      <Compile Include="Assets\Scripts\Network\NetworkGroup.cs" />
      <Compile Include="Assets\Scripts\Network\NetworkState.cs" />
-     <Compile Include="Assets\Scripts\Network\Server_NetworkManager.cs" />
-     <Compile Include="Assets\Scripts\Network\Server_PlayerManager.cs" />
-     <Compile Include="Assets\Scripts\Network\Server_Rocket.cs" />
+     <Compile Include="Assets\Scripts\Network\Server\Server_NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Server\Server_PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Server\Server_Rocket.cs" />
      <Compile Include="Assets\Scripts\Network\Shared_Predictor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
