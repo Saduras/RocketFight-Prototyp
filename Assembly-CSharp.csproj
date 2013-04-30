@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\Network\NetworkState.cs" />
      <Compile Include="Assets\Scripts\Network\Server\Server_NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Network\Server\Server_PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Network\Server\Server_PlayerPhysik.cs" />
      <Compile Include="Assets\Scripts\Network\Server\Server_Rocket.cs" />
      <Compile Include="Assets\Scripts\Network\Shared_Predictor.cs" />
   </ItemGroup>
