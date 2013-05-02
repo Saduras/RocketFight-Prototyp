@@ -25,7 +25,7 @@ public class Shared_Predictor : MonoBehaviour {
 			receiver.serverPos = pos;
 			receiver.serverRot = rot;
 			// Smoothly correct clients position.
-			receiver.lerpToTarget();
+			//receiver.lerpToTarget();
 			
 			// Take care of data for interpolation remote objects movements
 			// Shift up the buffer
@@ -38,22 +38,22 @@ public class Shared_Predictor : MonoBehaviour {
 	}
 	
 	public void Update() {
-		if ((Network.player == receiver.GetPlayer()) || Network.isServer) {
+		if (/*(Network.player == receiver.GetPlayer()) ||*/ Network.isServer) {
 			return; // This is only for remote peers, get off	
 		}
 		// Client side has !!only the server connected!!
-		clientPing = (Network.GetAveragePing(Network.connections[0]) / 100) + pingMargin;
+		/*clientPing = (Network.GetAveragePing(Network.connections[0]) / 100) + pingMargin;
 		float interpolationTime = (float) Network.time - clientPing;
 		// Ensure the buffer has at least one elemnt:
 		if (serverStateBuffer[0] == null) {
 			serverStateBuffer[0] = new NetworkState(0,
 										transform.position,
 										transform.rotation);
-		}
+		}*/
 		// Try interpolation if possible.
 		// If the latest serverStateBuffer timestamp is smaller than the latency
 		// we're not slow enough to really lag out and just extrapolate.
-		if (serverStateBuffer[0].timestamp > interpolationTime) {
+		/*if (serverStateBuffer[0].timestamp > interpolationTime) {
 			for ( int i=0; i < serverStateBuffer.Length; i++) {
 				if (serverStateBuffer[i] == null) {
 					continue;	
@@ -81,10 +81,13 @@ public class Shared_Predictor : MonoBehaviour {
 					return;
 				}
 			}
-		} else { // So it appears there is no lag thourgh latency.
+		} else {*/ // So it appears there is no lag thourgh latency.
+			float lerpTime = 0.2f;
 			NetworkState latest = serverStateBuffer[0];
-			transform.position = Vector3.Lerp(transform.position, latest.pos, 0.5f);
-			transform.rotation = Quaternion.Slerp(transform.rotation, latest.rot, 0.5f);
-		}
+			transform.position = Vector3.Lerp(transform.position, latest.pos, lerpTime);
+			transform.rotation = Quaternion.Slerp(transform.rotation, latest.rot, lerpTime);
+		
+		Debug.Log("Difference: " + (transform.position - serverStateBuffer[0].pos).magnitude);
+		/*}*/
 	}
 }

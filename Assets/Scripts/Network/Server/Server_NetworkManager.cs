@@ -7,10 +7,18 @@ public class Server_NetworkManager : MonoBehaviour {
 	public GameObject player;
 	public static string levelName = "NetworkPrototyp";
 	
+	public GameObject test;
+	
 	private List<Client_PlayerManager> playerTracker = new List<Client_PlayerManager>();
 	private List<NetworkPlayer>  scheduledSpawns = new List<NetworkPlayer> ();
 	
 	private bool processSpawnRequests = true;
+	
+	public void OnServerInitialized() {
+		if(test != null) {
+			Network.Instantiate(test,Vector3.zero,Quaternion.identity,(int)NetworkGroup.SERVER);
+		}
+	}
 	
 	public void OnPlayerConnected(NetworkPlayer player) {
 		Debug.Log("Spawning prefab for new client");

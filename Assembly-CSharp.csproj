@@ -56,6 +56,8 @@
      <Compile Include="Assets\Scripts\Network\Server\Server_PlayerPhysik.cs" />
      <Compile Include="Assets\Scripts\Network\Server\Server_Rocket.cs" />
      <Compile Include="Assets\Scripts\Network\Shared_Predictor.cs" />
+     <Compile Include="Assets\Scripts\Network\TestMovement.cs" />
+     <Compile Include="Assets\Scripts\Network\TestPrediction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
