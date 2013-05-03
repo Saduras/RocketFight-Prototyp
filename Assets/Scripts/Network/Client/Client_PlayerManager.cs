@@ -14,6 +14,10 @@ public class Client_PlayerManager : MonoBehaviour {
 	// Real view direction of the character on server. 
 	public Quaternion serverRot;
 	
+	public Texture2D cursorTex;
+	public int cursorSizeX = 32;  // set to width of your cursor texture
+	public int cursorSizeY= 32;  // set to height of your cursor texture
+	
 	// The client who controls this character
 	private NetworkPlayer controllingPlayer;
 	
@@ -37,6 +41,7 @@ public class Client_PlayerManager : MonoBehaviour {
 		if (Network.isClient) {
 			enabled = false;
 			speed = this.gameObject.GetComponent<Server_PlayerManager>().speed;
+			Screen.showCursor = false;
 		}
 	}
 	
@@ -92,6 +97,16 @@ public class Client_PlayerManager : MonoBehaviour {
 	}
 	
 	/**
+	 * Replace mouse coursor with custom texture
+	 */
+	public void OnGUI(){
+		GUI.DrawTexture( new Rect(Input.mousePosition.x-cursorSizeX/2, 
+				(Screen.height-Input.mousePosition.y)-cursorSizeY/2, 
+				cursorSizeX, 
+				cursorSizeY),cursorTex);
+	}
+	
+	/**
 	 * Move smoothly to server state if the distance is to big.
 	 * Use linear transformation for smooth movement.
 	 */
@@ -130,4 +145,6 @@ public class Client_PlayerManager : MonoBehaviour {
 	public NetworkPlayer GetPlayer() {
 		return controllingPlayer;	
 	}
+	
+	
 }
