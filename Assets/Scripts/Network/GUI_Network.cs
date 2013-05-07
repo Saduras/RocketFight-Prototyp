@@ -2,7 +2,14 @@ using UnityEngine;
 using System.Collections;
 
 public class GUI_Network : MonoBehaviour {
-
+	
+	/*public void Start() {
+		Network.incomingPassword = "myPassword";
+		// param: connection number, port, useNat
+		Network.InitializeServer(4, 25001, false);	
+		Debug.Log("Server has been initialized");
+	}*/
+	
 	void OnGUI(){
 		GUILayout.BeginArea(new Rect(Screen.width * 0.7f, 
 									Screen.height * 0.1f, 

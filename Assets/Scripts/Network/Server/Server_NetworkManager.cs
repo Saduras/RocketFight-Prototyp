@@ -75,7 +75,8 @@ public class Server_NetworkManager : MonoBehaviour {
 			processSpawnRequests = false;
 		}  
 	}
-
+	
+	[RPC]
 	public List<Client_PlayerManager> GetPlayerList() {
 		return playerTracker;	
 	}

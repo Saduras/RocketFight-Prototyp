@@ -1,4 +1,4 @@
-Initialize engine version: 4.1.2f1 (911c7369eeac)
+Initialize engine version: 4.0.1f2
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.1106]
@@ -11,116 +11,4210 @@ Platform assembly: C:\Users\student\Documents\Unity\RocketFight Prototyp\testbui
 Loading C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.055 seconds
+- Completed reload, in  0.059 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 4.0.1f2
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.1106]
+    Renderer: NVIDIA GeForce GTX 550 Ti
+    Vendor:   NVIDIA
+    VRAM:     977 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\student\Documents\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Running as server. Player ID is 0.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Allocating view ID AllocatedID: 1.
 
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Sent RPC call '__RPCNetworkInstantiate' to all connected clients
 
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Added RPC '__RPCNetworkInstantiate' to buffer.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
-New connection established (127.0.0.1:60777)
+Running as client. No player ID set yet.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Connected to 127.0.0.1:25001
+
+ 
+(Filename: C:/NuildAge conworknec2tion est6ablisRunt (1e/7.0twork/Ne256)
+ 
+(Filename: C:ne:u2481)
+nt/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 New scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 New scope index 0 is now in scope for AllocatedID: 1
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Sent initalization to player 1
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Spawning prefab for new client
  
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
 
-Checking player 612489581891976456
+Disabling message queue!
  
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Set player ID to 1
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154. Operation took 2.005422 ms.
+Level was loaded, requesting spawn.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Re-enabling message queue!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Checking player 612489575337273456
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
 
 Allocating view ID AllocatedID: 2.
 
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Sent RPC call '__RPCNetworkInstantiate' to all connected clients
 
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Added RPC '__RPCNetworkInstantiate' to buffer.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Setting the controlling player
  
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
 
 Sent RPC call 'SetPlayer' to all connected clients
 
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Added RPC 'SetPlayer' to buffer.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Spawns is empty! Stopping spawn request processing.
  
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
 
-A client has disconnected from this server. Player ID 1, IP 127.0.0.1:60777
+NullReferenceException: Object reference not set to an instance of an object
+  at Client_PlayerManager.Awake () [0x00000] in <filename unknown>:0 
  
-(Filename:  Line: 2480)
+(Filename:  Line: -1)
 
-Player 612489581891976456 disconnected.
+Setting the controlling player
  
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+New connection established (127.0.0.1:56257)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for AllocatedID: 0
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for AllocatedID: 0
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for AllocatedID: 0
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for SceneID: 1 Level Prefix: 0
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for AllocatedID: 1
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+New scope index 1 is now in scope for AllocatedID: 2
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent initalization to player 2
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Spawning prefab for new client
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Checking player 612489571704669456
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Allocating view ID AllocatedID: 3.
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Setting the controlling player
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Sent RPC call 'SetPlayer' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC 'SetPlayer' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Spawns is empty! Stopping spawn request processing.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Setting the controlling player
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Allocating view ID AllocatedID: 4.
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 2
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 3
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Destroying object with view ID 'AllocatedID: 4'
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 4, player ID 0 and group 2, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+1 RPC function were removed with RemoveRPC
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePl(y0./Un 0.0Eng-0.8)bug
+.cpp name::C:/Bui 43gen
+t
+/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.(pp 0.2, 0.0,: 0.7)
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)(
+
+0.2, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePla(e0.2, 0.0ni-0.5)
+ 
+(Filename: C:/BuildAg
+e
+nt/work/8(2c4f50.6,64fad/Runtim
+e/
+ExiletGenerated/StadAgent/work/812cityEngineDead/Runtimeinexp43)en
+erated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/wo(k/812c40.0, -064fad
+/R
+untlename: C:/BuildGenerateor/Standalone492a4fad/Runtime/ExportGeneratepp Line: 43neP
+l
+ayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/810c4.1, 0.64fad/Runt
+im
+e/ExportGenerated/SAgent/tank/812c4f5049264fad/Runtime/ExportGenerated/St
+a
+ndalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated(Stand 0lonePla.4)/U
+(FilenameeDebug.cpp Line: 43)
+nt/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f50492(4fa.1, 0.0, -0d/Ru
+nt
+(Fie/Export C:/Buited/StandalonePlayef5049264fad/Runtime/ExportGenerated/Standal
+o
+nePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f50(920.1a 0.0, -time)
+ portGenera: C:/BuildAgent/work/ePlayer/UnityEngiRuntime/Expp rLGenerated/Stan
+d
+alonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEn(ineDebug.cp -0.ine:
+ 4
+(Filen3me:
+ 
+C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/S(andalonePlayer0Unit 0.0, -0.ebug
+.c
+pp Line: : C:/
+B
+uildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.()
+ 
+(Filen, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049me: C264fildAgent/we/Exp812c4f5049264fad/RunlonePtime/ExportEngineDebug.cppdalonePlayer
+/
+UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(000, , 0.0, -0.0, 
+ -
+0.1)n me:
+ Fi:/Bname:Agent/work/gen2c4f5049264fad/Runt64fad/RuntGenerated/Staenerated/StandalontyEngineDebug.cpp Line: g.cpp
+ 
+Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c0.0, 0.0, -0.1)
+ 
+(Filen4f5049264uid/RAgent/workuntime/E0492rtGenerRuntime/ExdalrtGePlarated/SityEnalneDeblayer/UnLine: 43)
+
+ityEngineDebu 0.0,  Line
+:
+(File
+n
+ame: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtim0, 0.0ortGenera
+te
+d/ilenameStandalondAgent/w/UnityEnc4f504ebug.cpd/Runte: 43)
+
+ime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Allocating view ID AllocatedID: 5.
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 2
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 3
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Destroying object with view ID 'AllocatedID: 5'
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 5, player ID 0 and group 2, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+1 RPC function were removed with RemoveRPC
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+(-1.7, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.9, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Run 0.0, 0.7ort
+Ge
+neilename:tandaBonePldAgen/UnityEng12c4f504g.cpp LinRunti3)
+
+ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/(ork/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+1.7, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work(812c4f5049264fad/Runt.7, 0Exp.rtGene7ra
+ e
+(StindalonePlayer/UnityE/BuildAgent/work/8ne:c4f504
+9
+264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineD(bug.cp-1.ine: 43, 0
+.
+7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.8, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)(
+ 
+-1.6, 0.0, 0:/BuildAgent/work/812c4.7)926
+(Filenamntime/ExpilrdAgent/work/8andalone49layer/UnityEngineDentim.cpp Line:enerat
+e
+d/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+(
+(Filename: C0.7)
+ildAgent/w
+ork/812c4e: C:926uildAguntime/ExportGenerated/Standaloime/Exyer/UnineratgineDebugaloneLine: r/Uni
+
+tyEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f50(926-1.6, 0.0, 0.7)
+ 
+(Fineralen/StandalonePldAger/UnityEngent/work/812cLine: 9264f
+
+ad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c(f5049-1.5ad/R.0, 0.6)
+ 
+(Fileename:/ tandalonePlaygent/wityk/8gine4f5bug.cppfad/Re: time
+
+ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.7, 0.0, 0.5)
+ 
+(Filename( C:-1.5ldAg.ent/work
+/
+(Fic4f504e: C:f/BuildAgent/xwork/enerated/Stan4fadonePlayer/UnityEngineEDebug.enep Lied/Stand
+a
+lonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Expor(Generated-1.5,dalo0, 0.6)
+ UnFilename: C:/BuildA Lint/work/
+
+12c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/(untime.5, 0.0tGenerat
+ed
+/Filandale: CPlayer/UnityEngineDebug.c5049264fad/Rupp Le/ne: 43)
+
+ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.6, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Ru(tim-1.4,ort 0nerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGener(ted/Standa0.0, Player
+ 
+(FityEname: DebuBg.cpp entne: 4/)w
+o
+rk/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line:1.43)
+
+0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/E(por-1.3, 0.0d, 0.5)
+ 
+(FPlayer/U C:/BuildneDebu/work/8Linc4f50492
+6
+4fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cp(-1in, 0.0, 0
+
+.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, (.4)
+ 
+(Filename: C:/BuildAgent-1ork/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.4, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Run(ime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+1.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad(Runtime, 0xport.5)era
+tFilenaane: C:/ePlayergent/work/812c4nit492ngifad/Runtime/Expoe: Gener
+a
+ted/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filena(e:-1.1BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEng, 0.0, 0.5) Li
+ne:lena)
+
+: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.2, 0.(, 0-1.0
+, 
+0.0, 0.4): 
+C
+(FilenAmgent/workldAgent/wo49264fad/R5049264fad/Runtime/ExportGandalonedlayer/UnityEnginenePlayer/Unity: 43)e
+Debug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngin(Deb-g.cpp Line: 43)
+
+, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.1, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Run(ime/Expor 0Genera.0, 0.4Sta
+nd
+alonePlae: C:/BuiyEnAgent/work/812c4f50: 43)
+
+ad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-1.0, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityE8, in.0, 0g.c)
+ 
+(Fie: 4ame:
+ 
+C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/Sta(dal-0ePlayer/U 0.3)
+ 
+(nFDebuname:p LineuildAge
+n
+t/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEng(neD-0.8, 0.0, 0e: 43
+)
+
+Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/Unity(ngineDebug.cp 0.3)e:
+(File
+n
+ame: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.9, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandaloneP(ayer/Un 0.0, 0.neDebug.cpp Line: 43)
+
+3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/Un(tyE-gi.7, bug0, pp Line: 43))
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename( C:-0.7l, 0.0, 0.3)
+ 
+c4f5049(Filename26C:/aB/uildimee/ExportG812eratec4f5d4/Standalountime/ExportGyEngiateDebStandpp aine: 43aye
+r
+/UnityEngineDebug.cpp Line: 43)
+
+(-0.8, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/Standalon(-0.yer/UnityEngineDebug.cpp Line: 43)
+
+, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7( 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/80.0c4f502)
+ 
+(Fad/Runte: C:/BuortGegent/wed/Stan2c4f50ePlayefad/Runtime/ExUnityEngineDeortGenpp Line: 43)al
+onePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp.Line: 43) 0
+.
+2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filena(e: C:/BuildA, 0.t2work/812c4f5049264fad
+/R
+untlenamExpoCr/Benerated/StandkloneP812c4f50492UnityEngineDebug.cpp Generated/S
+t
+andalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fa(/Ru-0ime/Ex.0ortGe)
+ 
+(Fid/StandalonePlayer/UnityEngineDebug.cppf5049e: 43)
+
+Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/5Run.0, 0/Expo
+rt
+Generated/StandalonAgentyer/UnityEngineDebug.app Line: 4d/R
+u
+ntime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/(nityE-gin4, 0.ug.cpp Li
+ne
+: 43)am
+e: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runti(e/E-0.4, 0.0, 0.2)tan
+(FilonePla: Cr/UBuildAngineDebug.cp2p fLine: 4fad
+
+/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/wor(/81-0.4, 09264fad/2)
+ i
+(FExpoameGenerated/dAgent/worePla12c4fUnityEngfneDebug.cpadLine: 4me/
+
+xportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f50492(4fad/R5, 0ime/ 0.1)
+ 
+(FirtGeame:ated/BuildAgent/work/812cityEngineDebug.cptime/Exp 43)en
+erated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtim(/ExportGenerate.2)St
+an
+dFilename:yer/UnityEngint/woug.cpp Line:49264f
+
+ad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngin(-0b3, 0.0p Lin1: 4)
+
+
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/Unity(-0.neDebug.cpp Line: 43)
+
+, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePla(er/-nityEngineDebug.cpp Line: 43) 0
+.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.c(p Line: 43)
+
+-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/w(rk/812c4f5049264fad/Runtime/ExportGe0nera0.1d/Sta)da
+ 
+(Filename:ityEnginldAgeug.cwork/812c4f504
+9
+264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/E(portGenera-ed/Stand0, 0.e1)ay
+er
+/FilityEngineDebuug.cpp L/ine: 812c4
+f
+5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.(-0.2in0.0, 0.
+
+)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812(4f5-49.264fa0, R0.1)
+ 
+(xportGFilenamd/S C:/BuildAgenter/UnityEngineDebug.cpp Lintime3)
+portGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityE(gineDebug.cpp Line: 43, 0
+.
+0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtim(/E-0.1,Ge.0, 0.ed/S
+ta
+ndaleonePlayer/UnameyEngineDeldAg.cpp Lork/8 43)4f
+5
+049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime(Exp-0.1, 0r.0, /Stand
+al
+onePlayme:/UnityEildAgent/work/812ic4f50492
+6
+4fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/Stand(lo-0.layer/UnityEng
+in
+eDeleng.cpp LinBuildAgent/wo:k/812c
+4
+f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)(
+ 
+(F.0, 0.0, 0.0)Bu
+il
+dAglena/workC:/Buif504926t/work/812c4e/Ex49264Gend/Runtime/ExpalonePlayer/UnityEngine/Stbug.clon Lilayer/Uni
+t
+yEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Allocating view ID AllocatedID: 6.
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 2
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 3
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Destroying object with view ID 'AllocatedID: 6'
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 6, player ID 0 and group 2, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+1 RPC function were removed with RemoveRPC
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.7, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.6, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.5, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.4, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.3, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.2, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Allocating view ID AllocatedID: 7.
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Boom!
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Exportene
+railenaStan dalounePlaeyer/Unki812c4f5049ebug.cpp Li2ne: 43)nt
+ime/ExportGenerate1, 0.0ndaloneP
+ yerilename: gineDebudAge.cpp Line: k/812
+c
+4f5049264fad/Runt
+im
+e/ExportGenerated/Standalonrk/812c4f50492er4fad/Runtime/ExporineDebua.cpp Line: 43)
+
+ted/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+AllocatedID: 3
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Destroying object with view ID 'AllocatedID: 7'
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 7, player ID 0 and group 2, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+1 RPC function were removed with RemoveRPC
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filena1,m0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+e: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGene1, 0.0, -0.8)one
+PFilenr/UnityEngineDAgeug.cpp Li812:c43)
+
+4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cp( Li-0: 43)
+
+0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(2.0, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/(ni0.0ngineDebug.cpp Line: 43)
+
+, 0.0, -0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Export(ene0.0, 0.0a -0alo)
+ layilename: C:/BuildAgg.cppwLine: 43)o
+r
+k/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/(untime/ExportGenerated/Standa0.neP ayer/UnityEngineDebug.cpp Li
+ne
+: 43)
+me: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtim(/0x.ortGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+0, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp(Lin0.0,3).0
+, -0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Ex(0.0Generated/Sta0, -0.6)
+ 
+(FilenatyEn CineDebugAgepp Liork/ 12c4f504
+9
+264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.9, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f(0.0264fad/Runtim
+e/
+ExplentGee: C:/Bd/StdndalonePlayeAgenityEnginent/workpp Line:4f5049
+2
+64fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(-0.1, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+(
+0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/Unity(ng0neD, 0.0.cpp Lin, -0.4)
+
+
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 3.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.4)
+ 
+(Fi(enam0: C, 0.0, -0.ent
+ orFi/812c4ef5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebulo.cpp nePe: 43)
+
+layer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.4)
+(
+(Fi0, 0.0, -0.4)
+ ld
+(gent/work/812c4f504926ildAgent/wime/ExportGenerated/StandalonePlaortGenerated/Standalonepp Line:U 43)
+
+gineDebug.cpp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.c(p 0i.e: 43)
+
+0, 0.0, -0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -(.4)
+0.
+(Fi 0.0, -0.4)
+ ui
+ldAgent/e: rk/812c4fAgent/wofad/Runtif5049264rtGe/Rnerated/StandGenerated/StandalonePlayeebuUnityp Line: 43).c
+pp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/Stan(alonePlayer/UnityE
+ng
+ineDebug.cpp Line: 43)
+
+/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.8, 0.0, 2.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerat0.0/Standalo
+ne
+Plaler/Unit C:/BineDebug.t/workine: 43f5
+
+049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Fi(ename.0, 0.0, -: C:/
+B
+(Filenntme: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlay/worki/812c4f5049ug.cpp Liuntime/)
+
+portGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work(812c4f5049264fa0.3)nti
+(Fi/ExportGenerated/StandaloneP8ayer/UnityEng4f5eDebug.cpp Line: 43)
+
+ad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/Uni(yEn0.0, 0.0, cpp Lin
+ e
+: 43)am
+e: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.2)
+ 
+(
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtiie/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpppp Line 43)
+
+
+
+(1.7, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:(Bui0dAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+.0, 0.0, -0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.7, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Expo(0.0,er.0,ed-0.1nda
+l
+(Filename: C:/BuilineDebug.cpp 812c4f5049
+
+264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.6, 0.0, 2.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.5, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.4, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.3, 0.0, 2.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 2.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.2, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.1, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(1.0, 0.0, 1.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.9, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.8, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.7, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 1.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.6, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.9)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.8)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.5, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.7)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.4, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.6)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.5)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.3, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.4)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.3)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.2, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.2)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.1, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.1)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+A client has disconnected from this server. Player ID 1, IP 127.0.0.1:56256
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Player 612489575337273456 disconnected.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
 
 RPC __RPCNetworkInstantiate with AllocatedID: 2, player ID 0 and group 1, removed from RPC buffer.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 RPC SetPlayer with AllocatedID: 2, player ID 0 and group 0, removed from RPC buffer.
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 2 RPC function were removed with RemoveRPC
  
-(Filename:  Line: 2480)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
 
 Destroying object with view ID 'AllocatedID: 2'
  
-(Filename:  Line: 1375)
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
+
+A client has disconnected from this server. Player ID 2, IP 127.0.0.1:56257
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Player 612489571704669456 disconnected.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 3, player ID 0 and group 1, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+RPC SetPlayer with AllocatedID: 3, player ID 0 and group 0, removed from RPC buffer.
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+2 RPC function were removed with RemoveRPC
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 2481)
+
+Destroying object with view ID 'AllocatedID: 3'
+ 
+(Filename: C:/BuildAgent/work/812c4f5049264fad/Runtime/Network/NetworkManager.cpp Line: 1376)
 

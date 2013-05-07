@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 public class Client_NetworkManager : MonoBehaviour {
+	
+	public GameObject localPlayer;
 
 	public void OnConnectedToServer() {
 		Debug.Log("Disabling message queue!");

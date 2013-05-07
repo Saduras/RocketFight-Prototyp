@@ -25,7 +25,7 @@ public class Shared_Predictor : MonoBehaviour {
 			receiver.serverPos = pos;
 			receiver.serverRot = rot;
 			// Smoothly correct clients position.
-			//receiver.lerpToTarget();
+			receiver.lerpToTarget();
 			
 			// Take care of data for interpolation remote objects movements
 			// Shift up the buffer
@@ -74,7 +74,7 @@ public class Shared_Predictor : MonoBehaviour {
 					if (timediff > 0.0001) {
 						lerpTime = ((interpolationTime - bestStart.timestamp) / timediff);	
 					}
-					Debug.Log("Interpol, LerpTime " + lerpTime + " ping " + clientPing + " timediff " + timediff);
+					// Debug.Log("Interpol, LerpTime " + lerpTime + " ping " + clientPing + " timediff " + timediff);
 					
 					
 					transform.position = Vector3.Lerp(bestStart.pos, bestTarget.pos,lerpTime);

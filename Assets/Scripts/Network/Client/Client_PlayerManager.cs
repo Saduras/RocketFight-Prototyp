@@ -112,12 +112,12 @@ public class Client_PlayerManager : MonoBehaviour {
 	 */
 	public void lerpToTarget() {
 		float distance = Vector3.Distance(transform.position, serverPos);
-		Debug.Log("Lerp by " + distance);
+		// Debug.Log("Lerp by " + distance);
 		
 		// Only correct if the error margin (the distance) is to extreme.
 		if (distance >+ positionErrorThreshold) {
-			float lerp = ((1 / distance) * (speed + this.rigidbody.velocity.magnitude )) /100;
-			Debug.Log("Lerp time: " + lerp);
+			float lerp = ((1 / distance) * speed) /100;
+			// Debug.Log("Lerp time: " + lerp);
 			transform.position = Vector3.Lerp(transform.position, serverPos, lerp);
 			transform.rotation = Quaternion.Slerp(transform.rotation, serverRot, lerp);
 		}
@@ -135,6 +135,7 @@ public class Client_PlayerManager : MonoBehaviour {
 			// We are now sure that WE are the player in control
 			// time to enabgle the controls again
 			enabled = true;	
+			GameObject.Find("NetworkManager").GetComponent<Client_NetworkManager>().localPlayer = this.gameObject;
 		}
 	}
 	

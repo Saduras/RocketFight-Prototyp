@@ -33,8 +33,21 @@ public class Server_Rocket : MonoBehaviour {
 	}
 	
 	public void OnCollisionEnter(Collision collision) {
+		Debug.Log("Boom!");
+		if(Network.isClient) {
+			GameObject playerObj = GameObject.Find("NetworkManager").GetComponent<Client_NetworkManager>().localPlayer;
+			Vector3 force = playerObj.transform.position - this.transform.position;
+			float distance = force.magnitude;
+			force.Normalize();
+			float scaleFactor = explosionStrengh / distance;
+			force.Scale(new Vector3(scaleFactor,scaleFactor,scaleFactor) );
+				
+			playerObj.SendMessage("SetExplosionForce",force);
+			//playerObj.gameObject.GetComponent<Shared_Predictor>().SendMessage("SetExplosionForce",force);
+		}
+		
+		
 		if(Network.isServer) {
-			Debug.Log("Boom!");
 			
 			List<Client_PlayerManager> playerList = GameObject.Find("NetworkManager").GetComponent<Server_NetworkManager>().GetPlayerList();
 			foreach( Client_PlayerManager player in playerList ) {
@@ -46,6 +59,7 @@ public class Server_Rocket : MonoBehaviour {
 				force.Scale(new Vector3(scaleFactor,scaleFactor,scaleFactor) );
 				
 				player.SendMessage("SetExplosionForce",force);
+				//player.gameObject.GetComponent<Shared_Predictor>().SendMessage("SetExplosionForce",force);
 				/*player.gameObject.rigidbody.AddExplosionForce( explosionForce,
 															this.transform.position,
 															explosionRadius,
