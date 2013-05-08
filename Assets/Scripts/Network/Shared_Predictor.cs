@@ -5,7 +5,7 @@ public class Shared_Predictor : MonoBehaviour {
 	
 	public Transform observedTranform;
 	public Client_PlayerManager receiver; // Guy who is receiving data
-	public float pingMargin = 0.5f; // ping top-margin
+	public float pingMargin = 0.1f; // ping top-margin
 	
 	private float clientPing;
 	private NetworkState[] serverStateBuffer = new NetworkState[20];
@@ -25,7 +25,7 @@ public class Shared_Predictor : MonoBehaviour {
 			receiver.serverPos = pos;
 			receiver.serverRot = rot;
 			// Smoothly correct clients position.
-			receiver.lerpToTarget();
+			// receiver.lerpToTarget(); DONT NEED THIS ANY LONGER SINCE WE USE ONLY INTERPOLATION FOR ALL PLAYER
 			
 			// Take care of data for interpolation remote objects movements
 			// Shift up the buffer
@@ -38,7 +38,9 @@ public class Shared_Predictor : MonoBehaviour {
 	}
 	
 	public void Update() {
-		if ((Network.player == receiver.GetPlayer()) || Network.isServer) {
+		// Do the same interpolation for all player
+		// There is no prediction
+		if (/*(Network.player == receiver.GetPlayer()) ||*/ Network.isServer) {
 			return; // This is only for remote peers, get off	
 		}
 		// Client side has !!only the server connected!!
@@ -50,6 +52,8 @@ public class Shared_Predictor : MonoBehaviour {
 										transform.position,
 										transform.rotation);
 		}
+		
+		Debug.Log("Ping: " + clientPing);
 		// Try interpolation if possible.
 		// If the latest serverStateBuffer timestamp is smaller than the latency
 		// we're not slow enough to really lag out and just extrapolate.

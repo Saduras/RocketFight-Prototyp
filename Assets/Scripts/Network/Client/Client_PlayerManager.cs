@@ -65,7 +65,7 @@ public class Client_PlayerManager : MonoBehaviour {
 				lastMoveDirection = moveDirection;
 				
 				Vector3 movement = new Vector3(moveDirection.x, 0, moveDirection.y);
-				this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
+				// this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
 			}
 			
 			// Get rotation input.
@@ -85,7 +85,7 @@ public class Client_PlayerManager : MonoBehaviour {
 					angle = 360.0f - angle;
 				
 				Quaternion rotation = Quaternion.Euler(new Vector3(0,angle,0));
-				this.transform.rotation = rotation;
+				// this.transform.rotation = rotation;
 			}
 			
 			// Get fire input.

@@ -42,7 +42,7 @@ public class Server_Rocket : MonoBehaviour {
 			float scaleFactor = explosionStrengh / distance;
 			force.Scale(new Vector3(scaleFactor,scaleFactor,scaleFactor) );
 				
-			playerObj.SendMessage("SetExplosionForce",force);
+			// playerObj.SendMessage("SetExplosionForce",force);
 			//playerObj.gameObject.GetComponent<Shared_Predictor>().SendMessage("SetExplosionForce",force);
 		}
 		
