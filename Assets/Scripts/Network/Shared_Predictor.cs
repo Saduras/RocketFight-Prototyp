@@ -53,7 +53,7 @@ public class Shared_Predictor : MonoBehaviour {
 										transform.rotation);
 		}
 		
-		Debug.Log("Ping: " + clientPing);
+		// Debug.Log("Ping: " + clientPing);
 		// Try interpolation if possible.
 		// If the latest serverStateBuffer timestamp is smaller than the latency
 		// we're not slow enough to really lag out and just extrapolate.

@@ -7,7 +7,7 @@ public class Server_PlayerManager : MonoBehaviour {
 	public float rocketLauncherCD = 1.0f;
 	public GameObject rocketPrefab;
 	
-	private bool controlable = true;
+	public bool controlable = true;
 	private Vector3 movement = Vector3.zero;
 	private Quaternion rotation = Quaternion.identity;
 	private bool shoot = false;

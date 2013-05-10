@@ -6,7 +6,8 @@ public class Server_PlayerPhysik : MonoBehaviour {
 	// Stuff for the expolsion physics
 	private Vector3 explosionForce = Vector3.zero;
 	private float explosionEpsilon =  0.02f;
-	public static float explosionFadeTime = 1f; // Time it takes to reduce explosionForce to zero
+	public float explosionFadeTime = 1f; // Time it takes to reduce explosionForce to zero
+	public bool controlableWhileExplosion = false;
 	private Vector3 explosionFade = Vector3.zero;
 	
 	// Use this for initialization
@@ -21,8 +22,12 @@ public class Server_PlayerPhysik : MonoBehaviour {
 	
 		
 	private void ApplyForce() {
+		Server_PlayerManager pman = this.GetComponent<Server_PlayerManager>();
 		if(explosionForce.magnitude > explosionEpsilon) {
 			Debug.Log(explosionForce);
+			if(!controlableWhileExplosion) {
+				pman.controlable = false;
+			}
 			// Apply explosion force
 			this.transform.Translate(explosionForce * Time.deltaTime,Space.World);
 			// Weaken explosion for the next update
@@ -32,6 +37,8 @@ public class Server_PlayerPhysik : MonoBehaviour {
 			} else {
 				explosionForce = Vector3.zero;	
 			}
+		} else {
+			pman.controlable = true;	
 		}
 	}
 	

@@ -8,7 +8,7 @@ public class Server_Rocket : MonoBehaviour {
 	public float lifeTime = 3.0f;
 	public float explosionStrengh = 3.0f;
 	public float explosionRadius = 3.0f;
-	public float explosionUpwardsMod = 0.0f;
+	// public float explosionUpwardsMod = 0.0f;
 	
 	private float timer = 0.0f;
 
@@ -54,17 +54,14 @@ public class Server_Rocket : MonoBehaviour {
 				Debug.Log(player.gameObject.networkView.viewID);
 				Vector3 force = player.transform.position - this.transform.position;
 				float distance = force.magnitude;
-				force.Normalize();
-				float scaleFactor = explosionStrengh / distance;
-				force.Scale(new Vector3(scaleFactor,scaleFactor,scaleFactor) );
 				
-				player.SendMessage("SetExplosionForce",force);
-				//player.gameObject.GetComponent<Shared_Predictor>().SendMessage("SetExplosionForce",force);
-				/*player.gameObject.rigidbody.AddExplosionForce( explosionForce,
-															this.transform.position,
-															explosionRadius,
-															explosionUpwardsMod,
-															ForceMode.Impulse);*/
+				if( distance < explosionRadius ) {
+					force.Normalize();
+					float scaleFactor = explosionStrengh * ( 1 - distance / explosionRadius );
+					force.Scale(new Vector3(scaleFactor,scaleFactor,scaleFactor) );
+					
+					player.SendMessage("SetExplosionForce",force);
+				}
 			}
 			Network.Destroy(this.gameObject);
 			Network.RemoveRPCs(this.networkView.viewID);
