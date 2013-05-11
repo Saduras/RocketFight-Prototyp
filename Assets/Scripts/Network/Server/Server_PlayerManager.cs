@@ -12,6 +12,7 @@ public class Server_PlayerManager : MonoBehaviour {
 	private Quaternion rotation = Quaternion.identity;
 	private bool shoot = false;
 	private float lastShot = 0.0f;
+	private GameObject spawnPoint;
 	
 	// Update is called once per frame
 	public void Update() {
@@ -29,11 +30,23 @@ public class Server_PlayerManager : MonoBehaviour {
 		// Shoot!
 		if (shoot && (Time.time > lastShot + rocketLauncherCD) ) {
 			lastShot = Time.time;
-			Transform handle = this.transform.Find("Barrel");
-			Vector3 startPos = handle.position;
+			Transform barrel = this.transform.Find("Barrel");
+			Vector3 startPos = barrel.position;
 			Quaternion startRot = this.transform.rotation;
-			Network.Instantiate(rocketPrefab,startPos,startRot,(int)NetworkGroup.SERVER);
+			GameObject handle = (GameObject) Network.Instantiate(rocketPrefab,startPos,startRot,(int)NetworkGroup.SERVER);
+			Color diffuse = this.renderer.material.color;
+			handle.renderer.material.SetColor("_Color",diffuse);
+			Vector3 colorVec = new Vector3(diffuse.r,diffuse.g,diffuse.b);
+			handle.networkView.RPC("SetColor",RPCMode.AllBuffered,colorVec);
 		}
+	}
+	
+	public void SetSpawnPoint(GameObject spawnPt) {
+		this.spawnPoint = spawnPt;
+		Material diffuse = spawnPoint.renderer.material;
+		this.gameObject.renderer.material = diffuse;
+		Vector3 colorVec = new Vector3(diffuse.color.r,diffuse.color.g,diffuse.color.b);
+		this.networkView.RPC("SetColor", RPCMode.AllBuffered, colorVec);
 	}
 	
 	[RPC]
@@ -57,6 +70,11 @@ public class Server_PlayerManager : MonoBehaviour {
 	[RPC]
 	public void ShootMissile(bool fire) {
 		shoot = fire;
+	}
+	
+	public void OnDeath() {
+		Debug.Log("Dead");
+		this.transform.position = spawnPoint.transform.position;
 	}
 	
 }

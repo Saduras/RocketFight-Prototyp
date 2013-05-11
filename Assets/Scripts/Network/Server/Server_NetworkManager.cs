@@ -6,11 +6,16 @@ public class Server_NetworkManager : MonoBehaviour {
 	
 	public GameObject player;
 	public static string levelName = "NetworkPrototyp";
+	public List<GameObject> spawnPoints = new List<GameObject>();
 	
 	private List<Client_PlayerManager> playerTracker = new List<Client_PlayerManager>();
 	private List<NetworkPlayer>  scheduledSpawns = new List<NetworkPlayer> ();
+	private int lastSpawn = -1;
 	
 	private bool processSpawnRequests = true;
+	
+	public void Start() {
+	}
 	
 	public void OnServerInitialized() {
 		// Do something
@@ -46,18 +51,22 @@ public class Server_NetworkManager : MonoBehaviour {
 		if(!processSpawnRequests) {
 			return; // Spawn is disabled. Therefor do nothing.
 		}
-
+		
 		foreach(NetworkPlayer spawn in scheduledSpawns) {
 			Debug.Log("Checking player " + spawn.guid);
 			if(spawn == requester) {
-				// int num = int.Parse(spawn + "");
+				lastSpawn++;
+				Vector3 pos = spawnPoints[lastSpawn].transform.position;
 				GameObject handle = (GameObject) Network.Instantiate(player, 
-										transform.position, 
+										pos, 
 										Quaternion.identity, 
 										(int)NetworkGroup.PLAYER);
 				Client_PlayerManager sc = handle.GetComponent<Client_PlayerManager>();
 				if(!sc)
 					Debug.Log("The prefab has no Client_PlayerManager attached!");
+				
+				Server_PlayerManager pman = handle.GetComponent<Server_PlayerManager>();
+				pman.SetSpawnPoint(spawnPoints[lastSpawn]);
 
 				playerTracker.Add(sc);
 				// Get the network view of the player and add its owner
