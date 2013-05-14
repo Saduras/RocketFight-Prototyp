@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: d5b6220e368f8a448a44f372a8f3f159
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box11_Box1
+    100004: Box11_Box2
+    100006: Box11_Box3
+    100008: Building
+    100010: Door
+    100012: Door_En_Cube_3
+    100014: Door_En_Cube_4
+    100016: Door_En_Cube_5
+    100018: Main
+    100020: Middle
+    400000: //RootNode
+    400002: Box11_Box1
+    400004: Box11_Box2
+    400006: Box11_Box3
+    400008: Building
+    400010: Door
+    400012: Door_En_Cube_3
+    400014: Door_En_Cube_4
+    400016: Door_En_Cube_5
+    400018: Main
+    400020: Middle
+    2300000: Box11_Box1
+    2300002: Box11_Box2
+    2300004: Box11_Box3
+    2300006: Building
+    2300008: Door
+    2300010: Door_En_Cube_3
+    2300012: Door_En_Cube_4
+    2300014: Door_En_Cube_5
+    2300016: Main
+    2300018: Middle
+    3300000: Box11_Box1
+    3300002: Box11_Box2
+    3300004: Box11_Box3
+    3300006: Building
+    3300008: Door
+    3300010: Door_En_Cube_3
+    3300012: Door_En_Cube_4
+    3300014: Door_En_Cube_5
+    3300016: Main
+    3300018: Middle
+    4300000: Box11_Box1
+    4300002: Box11_Box2
+    4300004: Box11_Box3
+    4300006: Building
+    4300008: Door
+    4300010: Door_En_Cube_3
+    4300012: Door_En_Cube_4
+    4300014: Door_En_Cube_5
+    4300016: Main
+    4300018: Middle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

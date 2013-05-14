@@ -57,14 +57,14 @@ public class Client_PlayerManager : MonoBehaviour {
 			return;
 		
 		// Check for input updates
-		if((controllingPlayer!=null) && (Network.player == controllingPlayer)) {
+		if(/*(controllingPlayer!=null) &&*/ (Network.player == controllingPlayer)) {
 			// Get movement input.
 			Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
 			if(moveDirection !=  lastMoveDirection) {
 				networkView.RPC("UpdateMovement",RPCMode.Server,moveDirection);
 				lastMoveDirection = moveDirection;
 				
-				Vector3 movement = new Vector3(moveDirection.x, 0, moveDirection.y);
+				// Vector3 movement = new Vector3(moveDirection.x, 0, moveDirection.y);
 				// this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
 			}
 			
@@ -84,7 +84,7 @@ public class Client_PlayerManager : MonoBehaviour {
 				if(viewDirection.x < 0)
 					angle = 360.0f - angle;
 				
-				Quaternion rotation = Quaternion.Euler(new Vector3(0,angle,0));
+				// Quaternion rotation = Quaternion.Euler(new Vector3(0,angle,0));
 				// this.transform.rotation = rotation;
 			}
 			
