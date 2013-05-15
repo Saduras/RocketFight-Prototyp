@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Network\Server\Server_PlayerManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HUDFPS.cs">
     <Files>
-      <File FileName="Assets\Scripts\Deathground.js" Line="8" Column="40" />
-      <File FileName="Assets\Scripts\Network\Server\Server_PlayerManager.cs" Line="79" Column="2" />
+      <File FileName="Assets\Scripts\Network\Client\Client_PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Network\Server\Server_PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Deathground.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnergyBar.js" Line="25" Column="10" />
+      <File FileName="Assets\Scripts\HUDFPS.cs" Line="34" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
