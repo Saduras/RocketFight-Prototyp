@@ -23,8 +23,11 @@ public class Server_PlayerManager : MonoBehaviour {
 		
 		// Apply player movement (was set via RPC)
 		if(controlable) {
+			//Vector3 old = this.transform.position;
 			this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
 			this.transform.rotation = rotation;
+			//Vector3 newPos = this.transform.position;
+			//Debug.Log("Movedistance: " + (old - newPos).magnitude + " Movement: " + movement);
 		}
 		
 		// Shoot!
