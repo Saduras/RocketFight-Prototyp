@@ -9,6 +9,8 @@ public class Client_NetworkManager : MonoBehaviour {
 		Debug.Log("Disabling message queue!");
 		Network.isMessageQueueRunning = false;
 		Application.LoadLevel(Server_NetworkManager.levelName);
+		
+		
 	}
 
 	public void OnLevelWasLoaded(int level) {
@@ -19,6 +21,7 @@ public class Client_NetworkManager : MonoBehaviour {
 			Debug.Log("Re-enabling message queue!");
 			// Request a player instance from the server
 			this.networkView.RPC("requestSpawn", RPCMode.Server, Network.player);
+			this.gameObject.GetComponent<GUI_Network>().enabled = false;
 		}
 	}
 }

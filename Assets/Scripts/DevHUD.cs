@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
  
-public class HUDFPS : MonoBehaviour 
+public class DevHUD : MonoBehaviour 
 {
  
 // Attach this to a GUIText to make a frames/second indicator.
@@ -22,16 +22,32 @@ public class HUDFPS : MonoBehaviour
 	private float timeleft; // Left time for current interval
 	
 	private string fpsText = "";
+	
+	public Texture2D rgb_texture;
+	private int w = Screen.width;
+	private int h = 20;
  
 	void Start()
 	{
-	    /*if( !guiText )
-	    {
-	        Debug.Log("UtilityFramesPerSecond needs a GUIText component!");
-	        enabled = false;
-	        return;
-	    }*/
+
 	    timeleft = updateInterval;  
+		
+		// höhe und Breite
+		
+		
+		// einfarbige Textur 1
+		rgb_texture = new Texture2D(w, h);
+	    Color rgb_color = new Color(0.9f, 0.9f, 0.9f,0.5f);
+	    int i = 0;
+	    int j = 0;
+	    for(i = 0;i<w;i++)
+	    {
+	        for(j = 0;j<h;j++)
+	        {
+	            rgb_texture.SetPixel(i, j, rgb_color);
+	        }
+	    }
+	    rgb_texture.Apply();
 	}
 	 
 	void Update()
@@ -56,38 +72,22 @@ public class HUDFPS : MonoBehaviour
 			else
 				guiText.material.color = Color.green;
 		//	DebugConsole.Log(format,level);
+		*/
 	        timeleft = updateInterval;
 	        accum = 0.0F;
-	        frames = 0;*/
+	        frames = 0;
 	    }
 	}
 	
 	public void OnGUI() {
-		// höhe und Breite
-		int w = Screen.width;
-		int h = 20;
-		
-		// einfarbige Textur 1
-		Texture2D rgb_texture = new Texture2D(w, h);
-	    Color rgb_color = new Color(0.9f, 0.9f, 0.9f,0.5f);
-	    int i = 0;
-	    int j = 0;
-	    for(i = 0;i<w;i++)
-	    {
-	        for(j = 0;j<h;j++)
-	        {
-	            rgb_texture.SetPixel(i, j, rgb_color);
-	        }
-	    }
-	    rgb_texture.Apply();
-		
 		GUIStyle generic_style = new GUIStyle();
-   	 	GUI.skin.box = generic_style;
+	   	GUI.skin.box = generic_style;
 		GUI.skin.textArea = generic_style;
+		string srgLine = fpsText + " /// Time: " + System.String.Format("{0:F1}", Time.time) + " /// Resolution: " + Screen.width + "x" + Screen.height;
 		
 		GUI.BeginGroup(new Rect(0.0f, (float) Screen.height - h, (float) Screen.width, (float) h));
 			GUI.Box (new Rect (0f,0f, (float)Screen.width, (float) h),rgb_texture);
-			 GUI.TextArea(new Rect(5.0f,2.0f,100.0f,20.0f),fpsText);
+			GUI.TextArea(new Rect(5.0f,2.0f,100.0f,20.0f),srgLine);
 		GUI.EndGroup();
 	}
 }
