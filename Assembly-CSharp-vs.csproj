@@ -77,6 +77,7 @@
      <Compile Include="Assets\NetworkTest\Movement.cs" />
      <Compile Include="Assets\NetworkTest\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\DevHUD.cs" />
+     <Compile Include="Assets\Scripts\Effects\SphereExpolosion.cs" />
      <Compile Include="Assets\Scripts\Network\Client\Client_NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Network\Client\Client_PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Network\Client\Client_Rocket.cs" />
