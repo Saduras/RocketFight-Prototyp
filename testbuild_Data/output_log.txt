@@ -13,7 +13,7 @@ Platform assembly: C:\Users\David\Game Dev\Unity\RocketFight Prototyp\testbuild_
 Loading C:\Users\David\Game Dev\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\David\Game Dev\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\David\Game Dev\Unity\RocketFight Prototyp\testbuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.112 seconds
+- Completed reload, in  0.064 seconds
 desktop: 1600x900 40Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -39,8 +39,8 @@ Disabling message queue!
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 686.
-Total: 1.362609 ms (FindLiveObjects: 0.051833 ms CreateObjectMapping: 0.040159 ms MarkObjects: 0.325475 ms  DeleteObjects: 0.139156 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 689.
+Total: 3.035750 ms (FindLiveObjects: 0.095728 ms CreateObjectMapping: 0.136354 ms MarkObjects: 0.728468 ms  DeleteObjects: 0.265237 ms)
 
 Level was loaded, requesting spawn.
  
@@ -51,38 +51,6 @@ Re-enabling message queue!
 (Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
 
 Setting the controlling player
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
  
 (Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
 

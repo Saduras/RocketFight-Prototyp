@@ -69,20 +69,33 @@ public class Client_PlayerManager : MonoBehaviour {
 			}
 			
 			// Get rotation input.
-			Vector3 mousePos = Input.mousePosition;
-			Vector3 charPos = Camera.mainCamera.WorldToScreenPoint(this.transform.position);
-			Vector3 viewDirection = mousePos - charPos;
+			Ray cursorRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+			RaycastHit[] rayHits = Physics.RaycastAll(cursorRay);
+			Vector3 hitPoint = Vector3.zero;
+			foreach(RaycastHit hit in rayHits) {
+				if (hit.collider.CompareTag("ground")) {
+					hitPoint = hit.point;
+				}
+			}
+			Vector3 viewDirection = hitPoint - this.transform.position;
+			viewDirection.y = 0;
+			viewDirection.Normalize();
+			
+			
+			// Vector3 mousePos = Input.mousePosition;
+			// Vector3 charPos = Camera.mainCamera.WorldToScreenPoint(this.transform.position);
+			// Vector3 viewDirection = mousePos - charPos;
 			if(viewDirection != lastViewDirection) {
 				networkView.RPC("UpdateRotation",RPCMode.Server,viewDirection);
 				lastViewDirection = viewDirection;
 				
 				// calculate the angle between viewDirection and the screen-y-axis.
-				float angle = Vector2.Angle(Vector2.up,(Vector2)viewDirection);
+				//float angle = Vector2.Angle(Vector2.up,(Vector2)viewDirection);
 				
 				// Since Vector2.Angle always gives the smalles angle, we need to
 				// invert the angle for viewDirection on the left half circle.
-				if(viewDirection.x < 0)
-					angle = 360.0f - angle;
+				//if(viewDirection.x < 0)
+				//	angle = 360.0f - angle;
 				
 				// Quaternion rotation = Quaternion.Euler(new Vector3(0,angle,0));
 				// this.transform.rotation = rotation;

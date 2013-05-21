@@ -9,7 +9,7 @@ public class Server_PlayerManager : MonoBehaviour {
 	
 	public bool controlable = true;
 	private Vector3 movement = Vector3.zero;
-	private Quaternion rotation = Quaternion.identity;
+	private Vector3 viewDirection = Vector3.forward;
 	private bool shoot = false;
 	private float lastShot = 0.0f;
 	private GameObject spawnPoint;
@@ -25,7 +25,7 @@ public class Server_PlayerManager : MonoBehaviour {
 		if(controlable) {
 			//Vector3 old = this.transform.position;
 			this.transform.Translate(movement * speed * Time.deltaTime, Space.World);
-			this.transform.rotation = rotation;
+			this.transform.LookAt(this.transform.position + viewDirection);
 			//Vector3 newPos = this.transform.position;
 			//Debug.Log("Movedistance: " + (old - newPos).magnitude + " Movement: " + movement);
 		}
@@ -60,14 +60,15 @@ public class Server_PlayerManager : MonoBehaviour {
 	[RPC]
 	public void UpdateRotation(Vector3 viewDirection) {
 		// calculate the angle between viewDirection and the screen-y-axis
-		float angle = Vector2.Angle(Vector2.up,(Vector2)viewDirection);
+		// float angle = Vector2.Angle(Vector2.up,(Vector2)viewDirection);
 		
 		// since Vector2.Angle always gives the smalles angle, we need to
 		// invert the angle for viewDirection on the left half circle
-		if(viewDirection.x < 0)
-			angle = 360.0f - angle;
+		// if(viewDirection.x < 0)
+		//	angle = 360.0f - angle;
 		
-		rotation = Quaternion.Euler(new Vector3(0,angle,0));
+		// rotation = Quaternion.Euler(new Vector3(0,angle,0));
+		this.viewDirection = viewDirection;
 	}
 	
 	[RPC]
