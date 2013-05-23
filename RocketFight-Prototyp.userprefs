@@ -1,6 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Network\photon\PhotonNetman.cs">
+    <Files>
+      <File FileName="Assets\Photon Unity Networking\readme.txt" Line="27" Column="37" />
+      <File FileName="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" Line="30" Column="6" />
+      <File FileName="Assets\Photon Unity Networking\DemoBoxes\TestGuiInstantiate.cs" Line="15" Column="1" />
+      <File FileName="Assets\Scripts\Network\photon\PhotonNetmanGUI.cs" Line="20" Column="61" />
+      <File FileName="Assets\Scripts\Network\photon\PhotonNetman.cs" Line="54" Column="98" />
+      <File FileName="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" Line="16" Column="67" />
+      <File FileName="Assets\Scripts\Network\photon\RespawnPoint.cs" Line="6" Column="25" />
+      <File FileName="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" Line="32" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

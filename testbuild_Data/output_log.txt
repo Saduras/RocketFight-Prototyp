@@ -13,9 +13,11 @@ Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp
 Loading C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
 Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\SmartFox2.dll (this message is harmless)
 Loading C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\SmartFox2.dll into Unity Child Domain
-- Completed reload, in  0.062 seconds
+- Completed reload, in  0.079 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -27,88 +29,5 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
  
 (Filename:  Line: 1441)
 
-Disabling message queue!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-[mecanim]: BindSkeleton: cannot find Transform 'Cap_2_1'
- 
-(Filename:  Line: 1441)
-
-[mecanim]: BindSkeleton: cannot find Transform 'Main'
- 
-(Filename:  Line: 1441)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 689.
-Total: 1.496977 ms (FindLiveObjects: 0.048400 ms CreateObjectMapping: 0.034222 ms MarkObjects: 0.360311 ms  DeleteObjects: 0.109511 ms)
-
-Level was loaded, requesting spawn.
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Re-enabling message queue!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Setting the controlling player
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Dead
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Server_PlayerManager.OnDeath () [0x00000] in <filename unknown>:0 
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, SendMessageOptions)
-Deathground:OnTriggerEnter(Collider)
- 
-(Filename:  Line: -1)
-
-Dead
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Dead
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Server_PlayerManager.OnDeath () [0x00000] in <filename unknown>:0 
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, SendMessageOptions)
-Deathground:OnTriggerEnter(Collider)
- 
-(Filename:  Line: -1)
-
-Dead
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
-Boom!
- 
-(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
-
+Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Public\Documents\Unity Projects\RocketFight-Prototyp\testbuild_Data\Managed\System.dll (this message is harmless)
